@@ -42,7 +42,7 @@ The name `next_rider` in `section08/online.py` is an example of a global variabl
 
 ### Step 2: Headache #2 in the procedure-based approach
 
-    > **Answer on Gradescope:** Write the names of all of the global variables that are defined in the files `section08/offline.py`, `section08/online.py`, and `section08/simulate.py`. We're not asking about functions; we're only asking about variables like `next_rider`.
+>**Answer on Gradescope:** Write the names of all of the global variables that are defined in the files `section08/offline.py`, `section08/online.py`, and `section08/simulate.py`. We're not asking about functions; we're only asking about variables like `next_rider`.
 
 The names spelled in all caps are all read-only global variables. You can verify this by checking to see if any function contains a `global` statement with these names. HINT: You won't find any.
 
@@ -58,7 +58,7 @@ You might think, "That's not a headache." But let's change the first non-comment
 
 2.  Run (in your `section08` directory) `python3 simulate.py`. You can answer the simulator's questions with car layout 1, hail stream 1, and 15 simulation steps. 
 
-    > **Answer on Gradescope:** Why don't you ever see a car on the map?
+> **Answer on Gradescope:** Why don't you ever see a car on the map?
 
 3.  Undo this edit before proceeding.
 
