@@ -54,11 +54,6 @@ class CarManager:
         '''Allows the user to select an initial configuration
            of cars for a given city. Returns True if setup
            succeeds and False otherwise.
-        
-           Things to FIX:
-            *   The configuration information should be read
-                from a configuration file and not hardcoded
-                in this method.
         '''
 
         # Make sure that cars is an empty dictionary

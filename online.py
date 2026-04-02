@@ -113,11 +113,6 @@ class RiderManager:
 
     def setup(self, config):
         '''Allows the user to select a ride-request stream
-        
-           Things to FIX:
-            *   The configuration information should be read
-                from a configuration file and not hardcoded
-                in this function.
         '''
         # Clear the riders list and the tracker variable
         self.riders = {}
